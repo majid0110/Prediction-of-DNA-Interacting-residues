@@ -334,7 +334,7 @@ elif k == 5 :
                         return_train_score=True)
 
   gs_KNN.fit(x_train, y_train);
-
+  
   gs_KNN.best_params_
 
   accuracy_score(y_val,gs_KNN.predict(x_val))
